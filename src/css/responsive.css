@@ -1,0 +1,114 @@
+@media (max-width: 1200px) {
+    .main {
+        margin: 20px;
+    }
+
+    .main img {
+        max-width: 50%;
+    }
+
+    .main .text .title {
+        font-size: 30px;
+    }
+    
+    .main .text .info {
+        line-height: 24px;
+    }
+
+    .footer {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main {
+        margin: 20px;
+    }
+
+    .main img {
+        max-width: 50%;
+    }
+
+    .main .text .title {
+        font-size: 30px;
+    }
+    
+    .main .text .info {
+        line-height: 24px;
+    }
+
+    .footer {
+        justify-content: center;
+        margin-right: 0;
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat; 
+        background-size: cover;
+        background-color: var(--color);
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .main img {
+        max-width: 80%;
+    }
+
+    .main .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 40px;
+    }
+    
+    .main .text .title {
+        font-size: 30px;
+    }
+    
+    .main .text .info {
+        line-height: 24px;
+    }
+
+    .main .text .btn {
+        width: 250px;
+        height: 50px;
+        font-size: 17px;
+        color: var(--color);
+    }
+
+    .footer {
+        justify-content: center;
+        margin-right: 0;
+        padding-top: 0;
+        padding: 30px;
+    }
+
+    
+    .footer .social a i {
+        font-size: 14px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
