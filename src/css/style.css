@@ -2,6 +2,8 @@ body {
     background: url(../images/bg-desktop.svg) center center no-repeat;
     background-size: cover;
     height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: var(--color);
     font-family: "Open Sans", sans-serif;
     color: #fff;
@@ -66,7 +68,11 @@ body {
     display: flex;
 }
 
-.footer .social a i {
+.footer .social ul {
+    display: flex;
+}
+
+.footer .social ul li a i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +85,7 @@ body {
     border-radius: 50%;
 }
 
-.footer .social a i:hover {
+.footer .social ul li a i:hover {
     border-color: var(--soft-color);
     color: var(--soft-color);
 }
