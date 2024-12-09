@@ -1,4 +1,4 @@
-# Portfólio - Gabriel Loureiro
+# Projeto - Huddle Base
 
 Site criado com HTML e CSS do desafio do Frontend Mentor e Quest do curso DevQuest. Frontend Mentor é um site onde tem diversos desafios de frontend, sendo ótimo para treinar habilidades e evoluir. As Quests do cursos são desafios passados pelos professores onde tem correção.
 
